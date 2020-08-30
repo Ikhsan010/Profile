@@ -1,0 +1,54 @@
+.profile{
+    border-radius: 100%;
+    display: block;
+    width: 175px;
+    margin-top: -2.5cm;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.profile:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transform: scale(1.25);
+}
+
+.sampul{
+    display: block;
+    margin-top: 2cm;
+    margin-right: auto;
+    margin-left: auto;
+    width: 65.5%;
+    height: 365px;
+}
+
+.grid { 
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(20%, 1fr));
+    grid-gap: 20px;
+    align-items: stretch;
+    margin-top: 3cm;
+    margin-right: 20%;
+    margin-left: 20%;
+} 
+.grid img {
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.tombol{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(75px, 1fr));
+    align-items: stretch;
+    margin-left: 45%;
+    margin-right: 0%;
+    grid-gap: 1px;
+    padding: 10px;
+}
+
+.tombol button{
+    border-radius: 15%;
+    padding: 5px;
+}
